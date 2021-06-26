@@ -1,7 +1,43 @@
-/* RESET */
+/**** RESET *********************************/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+
+body{
+  font: 400 1rem 'DM Sans', sans-serif;
+}
+
+h1{
+  font: 700 1.875rem 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/**** HEADER *********************************/
+.cabecalho{
+  background-color: brown;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5%;
+  align-items: center;
+}
+.link-logo{
+  display: flex;
+  margin-left: 1%;
+  align-items: center;
+  color: darkblue;
+  font-weight: bold;
   
+}
+.logo{
+  margin-right: 5px;
+}
+.menu{
+  margin-right: 0.5%;
 }
